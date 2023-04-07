@@ -11,4 +11,4 @@ def solution(x: np.array) -> float:
     
     y = [2 * s / 91 ** 2 for s in x]
         
-    return y.median() # Ваш ответ
+    return y.mean() # Ваш ответ
